@@ -3,9 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model as EloquentModel;
 
-class Flight extends Model
-{
+class Flight extends EloquentModel {
     use HasFactory;
 }

@@ -23,7 +23,7 @@ class JWTMiddleware {
                 return response()->json(ResponseDefault::create(400, false, "Token invalid"), 400);
             }
 		} catch (Exception $e) {
-            return response()->json(["message" => "Token invalid"], 400);
+            return response()->json(ResponseDefault::create(400, false, "Token invalid"), 400);
 		}
 
 		return $next($request);

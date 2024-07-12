@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Hotel;
 use App\Models\User;
 use App\Utils\ResponseDefault;
 use Illuminate\Http\Request;
@@ -15,7 +16,7 @@ class UserController extends Controller {
 
         return response()->json([
             ...ResponseDefault::create(200, true, "Berhasil mendapatkan data pengguna"),
-        "user" => $user
+            "user" => $user
         ], 200);
     }
 
@@ -23,11 +24,11 @@ class UserController extends Controller {
         $validator = Validator::make($request->all(), [
             "name" => "required|string",
             "email" => "required|string|email|unique:users",
+            "phone" => "required|string|regex:/^08\d{8,13}$/",
             "password" => "required|string|min:8",
         ]);
     
-        if ($validator->fails()) {
-            
+        if ($validator->fails()){ 
             return response()->json(ResponseDefault::create(400, false, $validator->errors()->first()), 400);
         }
         
@@ -42,6 +43,7 @@ class UserController extends Controller {
         $user = User::create([
             "name" => $request->name,
             "email" => $request->email,
+            "phone" => $request->phone,
             "password" => Hash::make($request->password)
         ]);
 
