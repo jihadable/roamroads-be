@@ -9,7 +9,95 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset("styles/index.css") }}">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        body{
+            background: radial-gradient(circle, #ff4d30 10%, transparent 11%);
+            background-size: 3em 3em;
+            background-color: #000000;
+            opacity: 1;
+            height: 100Vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 3rem;
+            border-radius: 1rem;
+            background-color: white;
+
+            .title {
+                font-size: 2.5rem;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            .techs {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+                .title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            
+                & ul {
+                    padding-left: 1rem;
+                }
+            }
+            
+            .links {
+                width: fit-content;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            
+                & .web, .github {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.25rem;
+                    cursor: pointer;
+                    padding: 0.5rem;
+                    border-radius: .5rem;
+                    color: white;
+                    background-color: #24292e;
+                    text-decoration: none;
+                }
+
+                & .web {
+                    background-color: #ff4d30;
+                }
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 0 1rem;
+            }
+
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
