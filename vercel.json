@@ -8,12 +8,10 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
-    ],
-    "rewrites": [
+        },
         { 
-            "source": "/public/api/(.*)", 
-            "destination": "/api" 
+            "src": "/public/api/(.*)", 
+            "dest": "/api" 
         }
     ],
     "env": {
