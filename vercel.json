@@ -6,20 +6,20 @@
     },
     "routes": [
         {
+            "src": "/",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/styles",
+            "dest": "/public/styles"
+        },
+        {
+            "src": "/images",
+            "dest": "/public/images"
+        },
+        {
             "src": "/api/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
-            "src": "/styles/(.*)",
-            "dest": "/public/styles/$1"
-        },
-        {
-            "src": "/images/(.*)",
-            "dest": "/public/images/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/public/api"
         }
     ],
     "env": {
