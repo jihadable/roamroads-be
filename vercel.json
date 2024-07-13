@@ -6,16 +6,16 @@
     },
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
             "src": "/styles",
             "dest": "/public/styles"
         },
         {
             "src": "/images",
             "dest": "/public/images"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
         }
     ],
     "env": {
