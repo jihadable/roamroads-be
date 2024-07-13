@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
-    <style>
+    <link rel="stylesheet" href="./styles/index.css">
+    {{-- <style>
         *{
             margin: 0;
             padding: 0;
@@ -97,7 +98,7 @@
                 width: 100%;
             }
         }
-    </style>
+    </style> --}}
 </head>
 <body>
     <div class="container">
