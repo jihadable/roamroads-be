@@ -6,19 +6,19 @@
     },
     "routes": [
         {
-            "src": "/",
+            "src": "/api/(.*)",
             "dest": "/api/index.php"
         },
         {
-            "src": "/styles",
-            "dest": "/public/styles"
+            "src": "/styles/(.*)",
+            "dest": "/public/styles/$1"
         },
         {
-            "src": "/images",
-            "dest": "/public/images"
+            "src": "/images/(.*)",
+            "dest": "/public/images/$1"
         },
         {
-            "src": "/api/(.*)",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
