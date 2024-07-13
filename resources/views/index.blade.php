@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RoamRoads Backend</title>
-    <link rel="icon" href="https://raw.githubusercontent.com/jihadable/roamroads/master/src/assets/roam-roads-logo.jpg">
+    <link rel="icon" href="{{ asset("images/logo.jpg") }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
-    {{-- <style>
+    <style>
         *{
             margin: 0;
             padding: 0;
@@ -97,7 +97,7 @@
                 width: 100%;
             }
         }
-    </style> --}}
+    </style>
 </head>
 <body>
     <div class="container">
