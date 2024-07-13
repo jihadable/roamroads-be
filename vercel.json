@@ -8,10 +8,6 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-            "src": "/logo.jpg",
-            "dest": "/public/logo.jpg"
         }
     ],
     "env": {
