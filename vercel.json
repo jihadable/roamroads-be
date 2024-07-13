@@ -10,8 +10,8 @@
             "dest": "/public/build/" 
         },
         { 
-            "src": "/styles/(.*)", 
-            "dest": "/public/styles/" 
+            "src": "/images/(.*)", 
+            "dest": "/public/images/" 
         }, 
         { 
             "src": "/(.*)", 
