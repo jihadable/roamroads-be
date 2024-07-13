@@ -16,7 +16,7 @@
 
         "DB_CONNECTION": "mongodb",
         "DB_HOST": "mern.eprwhpx.mongodb.net",
-        "DB_PORT": 27017,
+        "DB_PORT": "27017",
         "DB_DATABASE": "roamroads",
         "DB_USERNAME": "jihadable",
         "DB_PASSWORD": "Terserah1",
