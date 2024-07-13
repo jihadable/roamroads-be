@@ -16,10 +16,6 @@
         {
             "src": "/images",
             "dest": "/public/images"
-        },
-        {
-            "src": "/api",
-            "dest": "/public/api"
         }
     ],
     "env": {
