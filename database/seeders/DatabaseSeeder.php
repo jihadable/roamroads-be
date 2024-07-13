@@ -28,80 +28,80 @@ class DatabaseSeeder extends Seeder
 
         $kendariHotels = [
             [
-                "name" => "Aurora Sky Hotel",
-                "image" => "hotel1",
+                "name" => "Aurora Sky",
+                "image" => "aurora-sky.jpg",
                 "stars" => 4,
                 "price" => 1155000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "The Velvet Hotel",
-                "image" => "hotel2",
+                "name" => "The Velvet",
+                "image" => "the-velvet.jpg",
                 "stars" => 3,
                 "price" => 865000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Luminary Hotel",
-                "image" => "hotel3",
+                "name" => "Luminary",
+                "image" => "luminary.jpg",
                 "stars" => 4,
                 "price" => 1170000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Serenity Hotel",
-                "image" => "hotel4",
+                "name" => "Serenity",
+                "image" => "serenity.jpg",
                 "stars" => 5,
                 "price" => 1335000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Eclipse Grand Hotel",
-                "image" => "hotel5",
+                "name" => "Eclipse Grand",
+                "image" => "eclipse-grand.jpg",
                 "stars" => 5,
                 "price" => 1465000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Zenith Hotel",
-                "image" => "hotel6",
+                "name" => "Zenith",
+                "image" => "zenith.jpg",
                 "stars" => 4,
                 "price" => 1200000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ],
             [
-                "name" => "Mystique Mano Hotel",
-                "image" => "hotel7",
+                "name" => "Mystique Mano",
+                "image" => "mystique-mano.jpg",
                 "stars" => 4,
                 "price" => 1200000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "The Oberoi Hotel",
-                "image" => "hotel8",
+                "name" => "The Oberoi",
+                "image" => "the-oberoi.jpg",
                 "stars" => 3,
                 "price" => 1110000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Meeting Facilities"]
             ],
             [
-                "name" => "Ayana Hotel",
-                "image" => "hotel9",
+                "name" => "Ayana",
+                "image" => "ayana.jpg",
                 "stars" => 4,
                 "price" => 1200000,
                 "city" => "Kendari",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Alila Uluwatu Hotel",
-                "image" => "hotel10",
+                "name" => "Alila Uluwatu",
+                "image" => "alila-uluwatu.jpg",
                 "stars" => 3,
                 "price" => 895000,
                 "city" => "Kendari",
@@ -111,80 +111,80 @@ class DatabaseSeeder extends Seeder
 
         $jogjaHotels = [
             [
-                "name" => "Celestial Treat Hotel",
-                "image" => "hotel11",
+                "name" => "Celestial Treat",
+                "image" => "celestial-treat.jpg",
                 "stars" => 3,
                 "price" => 1150000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "Zenith Plaza Hotel",
-                "image" => "hotel12",
+                "name" => "Zenith Plaza",
+                "image" => "zenith-plaza.jpg",
                 "stars" => 4,
                 "price" => 1225000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Saphire Sands Hotel",
-                "image" => "hotel13",
+                "name" => "Saphire Sands",
+                "image" => "saphire-sands.jpg",
                 "stars" => 4,
                 "price" => 1320000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ],
             [
-                "name" => "Avalon Haven Hotel",
-                "image" => "hotel14",
+                "name" => "Avalon Haven",
+                "image" => "avalon-haven.jpg",
                 "stars" => 3,
                 "price" => 1110000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ],
             [
-                "name" => "Syinjuku Hotel",
-                "image" => "hotel15",
+                "name" => "Syinjuku",
+                "image" => "syinjuku.jpg",
                 "stars" => 3,
                 "price" => 1115000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center"]
             ],
             [
-                "name" => "Nova Skyline Hotel",
-                "image" => "hotel16",
+                "name" => "Nova Skyline",
+                "image" => "nova-skyline.jpg",
                 "stars" => 5,
                 "price" => 1505000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Solstice Hotel",
-                "image" => "hotel17",
+                "name" => "Solstice",
+                "image" => "solstice.jpg",
                 "stars" => 3,
                 "price" => 1320000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Enchanted Oasis Hotel",
-                "image" => "hotel18",
+                "name" => "Enchanted Oasis",
+                "image" => "enchanted-oasis.jpg",
                 "stars" => 3,
                 "price" => 1200000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ],
             [
-                "name" => "Vista Vista Hotel",
-                "image" => "hotel19",
+                "name" => "Vista Vista",
+                "image" => "vista-vista.jpg",
                 "stars" => 4,
                 "price" => 1295000,
                 "city" => "Yogyakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "Luxe Mirage Hotel",
-                "image" => "hotel20",
+                "name" => "Luxe Mirage",
+                "image" => "luxe-mirage.jpg",
                 "stars" => 5,
                 "price" => 1650000,
                 "city" => "Yogyakarta",
@@ -194,82 +194,82 @@ class DatabaseSeeder extends Seeder
 
         $bandungHotels = [
             [
-                "name" => "Azure Horizon Hotel",
-                "image" => "hotel21",
+                "name" => "Azure Horizon",
+                "image" => "azure-horizon.jpg",
                 "stars" => 4,
-                "price" => 99,
+                "price" => 1485000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "The Ritz Hotel",
-                "image" => "hotel22",
+                "name" => "The Ritz",
+                "image" => "the-ritz.jpg",
                 "stars" => 4,
-                "price" => 105,
+                "price" => 1660000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Cap EdenRoc Hotel",
-                "image" => "hotel23",
+                "name" => "Cap Edenroc",
+                "image" => "cap-edenroc.jpg",
                 "stars" => 5,
-                "price" => 123,
+                "price" => 1985000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Tranquil Haven Hotel",
-                "image" => "hotel24",
+                "name" => "Tranquil Haven",
+                "image" => "tranquil-haven.jpg",
                 "stars" => 3,
-                "price" => 89,
+                "price" => 1345000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "Costes Hotel",
-                "image" => "hotel25",
+                "name" => "Costes",
+                "image" => "costes.jpg",
                 "stars" => 3,
-                "price" => 92,
+                "price" => 1345000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Meeting Facilities"]
             ],
             [
-                "name" => "Plaza Athenee Hotel",
-                "image" => "hotel26",
+                "name" => "Plaza Athenee",
+                "image" => "plaza-athenee.jpg",
                 "stars" => 4,
-                "price" => 100,
+                "price" => 1555000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "Opulent Elegance Hotel",
-                "image" => "hotel27",
+                "name" => "Opulent Elegance",
+                "image" => "opulent-elegance.jpg",
                 "stars" => 5,
-                "price" => 124,
+                "price" => 2125000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Lutetia Hotel",
-                "image" => "hotel28",
+                "name" => "Lutetia",
+                "image" => "lutetia.jpg",
                 "stars" => 3,
-                "price" => 88,
+                "price" => 1454000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center"]
             ],
             [
-                "name" => "Majestic Cannes Hotel",
-                "image" => "hotel29",
+                "name" => "Majestic Cannes",
+                "image" => "majestic-cannes.jpg",
                 "stars" => 5,
-                "price" => 132,
+                "price" => 2521000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Enigma Resev Hotel",
-                "image" => "hotel30",
+                "name" => "Enigma Resev",
+                "image" => "enigma-resev.jpg",
                 "stars" => 4,
-                "price" => 104,
+                "price" => 1867000,
                 "city" => "Bandung",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ]
@@ -277,88 +277,88 @@ class DatabaseSeeder extends Seeder
 
         $jakartaHotels = [
             [
-                "name" => "Danieli Hotel",
-                "image" => "hotel31",
+                "name" => "Danieli",
+                "image" => "danieli.jpg",
                 "stars" => 4,
-                "price" => 100,
+                "price" => 1777000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Belmond Splendido Hotel",
-                "image" => "hotel32",
+                "name" => "Belmond Splendido",
+                "image" => "belmond-splendido.jpg",
                 "stars" => 3,
-                "price" => 94,
+                "price" => 1667000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access"]
             ],
             [
-                "name" => "Crystal Haven Hotel",
-                "image" => "hotel33",
+                "name" => "Crystal Haven",
+                "image" => "crystal-haven.jpg",
                 "stars" => 5,
-                "price" => 114,
+                "price" => 1998000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Hassler Hotel",
-                "image" => "hotel34",
+                "name" => "Hassler",
+                "image" => "hassler.jpg",
                 "stars" => 3,
-                "price" => 92,
+                "price" => 1822000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Exquisite Bliss Hotel",
-                "image" => "hotel35",
+                "name" => "Exquisite Bliss",
+                "image" => "exquisite-bliss.jpg",
                 "stars" => 5,
-                "price" => 124,
+                "price" => 2115000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Santa Caterina Hotel",
-                "image" => "hotel36",
+                "name" => "Santa Caterina",
+                "image" => "santa-caterina.jpg",
                 "stars" => 4,
-                "price" => 103,
+                "price" => 1743000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center"]
             ],
             [
-                "name" => "Castello Casole Hotel",
-                "image" => "hotel37",
+                "name" => "Castello Casole",
+                "image" => "castello-casole.jpg",
                 "stars" => 3,
-                "price" => 91,
+                "price" => 1711000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Meeting Facilities"]
             ],
             [
-                "name" => "Villa Cora Hotel",
-                "image" => "hotel38",
+                "name" => "Villa Cora",
+                "image" => "villa-cora.jpg",
                 "stars" => 5,
-                "price" => 137,
+                "price" => 2456000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Harmonic Echoes Hotel",
-                "image" => "hotel39",
+                "name" => "Harmonic Echoes",
+                "image" => "harmonic-echoes.jpg",
                 "stars" => 5,
-                "price" => 156,
+                "price" => 2769000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Wheelchair Access", "Fitness Center", "Meeting Facilities"]
             ],
             [
-                "name" => "Florence Lamassa Hotel",
-                "image" => "hotel40",
+                "name" => "Florence Lamassa",
+                "image" => "florence-lamassa.jpg",
                 "stars" => 4,
-                "price" => 110,
+                "price" => 1672000,
                 "city" => "Jakarta",
                 "facilities" => ["Wifi", "Swimming Pool", "Parking", "Restaurant", "Elevator", "Fitness Center", "Meeting Facilities"]
             ]
         ];
 
-        foreach ([...$kendariHotels, ...$jogjaHotels, ...$bandungHotels] as $hotel) {
+        foreach ([...$kendariHotels, ...$jogjaHotels, ...$bandungHotels, ...$jakartaHotels] as $hotel) {
             $hotel["created_at"] = Carbon::now();
             $hotel["updated_at"] = Carbon::now();
         
