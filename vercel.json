@@ -12,8 +12,8 @@
     ],
     "rewrites": [
         { 
-            "source": "/api/(.*)", 
-            "destination": "/public/api" 
+            "source": "/public/api/(.*)", 
+            "destination": "/api" 
         }
     ],
     "env": {
