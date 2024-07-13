@@ -8,6 +8,10 @@
         { 
             "src": "/build/(.*)", 
             "dest": "/public/build/" 
+        },
+        { 
+            "src": "/styles/(.*)", 
+            "dest": "/public/styles/" 
         }, 
         { 
             "src": "/(.*)", 
