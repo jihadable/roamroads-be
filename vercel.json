@@ -12,6 +12,10 @@
         {
             "src": "/styles",
             "dest": "/public/styles"
+        },
+        {
+            "src": "/images",
+            "dest": "/public/images"
         }
     ],
     "env": {
