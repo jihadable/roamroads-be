@@ -16,6 +16,10 @@
         {
             "src": "/images",
             "dest": "/public/images"
+        },
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/index.php"
         }
     ],
     "env": {
