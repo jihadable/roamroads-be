@@ -22,15 +22,6 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://roamroads-be.vercel.app",
-        "APP_KEY": "base64:RqEOi7meNCxbH9Dx9jmuw+J8d0/9vYVvv+O5WyM0gzQ=",
-
-        "DB_CONNECTION": "mongodb",
-        "DB_HOST": "mern.eprwhpx.mongodb.net",
-        "DB_PORT": "27017",
-        "DB_DATABASE": "roamroads",
-        "DB_USERNAME": "jihadable",
-        "DB_PASSWORD": "Terserah1",
-        "DATABASE_URL": "mongodb+srv://jihadable:Terserah1!@mern.eprwhpx.mongodb.net/?retryWrites=true&w=majority&appName=MERN",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
