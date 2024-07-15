@@ -15,18 +15,18 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
-    "routes": [
+    "rewrites": [
         { 
-            "src": "/styles/(.*)", 
-            "dest": "/public/styles/" 
+            "source": "/styles/(.*)", 
+            "destitation": "/public/styles/" 
         },
         { 
-            "src": "/images/(.*)", 
-            "dest": "/public/images/" 
+            "source": "/images/(.*)", 
+            "destitation": "/public/images/" 
         }, 
         { 
-            "src": "/(.*)", 
-            "dest": "/api/index.php" 
+            "source": "/(.*)", 
+            "destitation": "/api/index.php" 
         }
     ],
     "env": {
