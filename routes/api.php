@@ -17,9 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("/users", [UserController::class, "get_user_profile"]);
-Route::post("users/register", [UserController::class, "register"]);
-Route::post("users/login", [UserController::class, "login"]);
+Route::prefix("/users")->group(function(){
+    Route::get("/", [UserController::class, "get_user_profile"])->middleware(JWTMiddleware::class);
+    Route::post("/register", [UserController::class, "register"]);
+    Route::post("/login", [UserController::class, "login"]);
+});
 
 Route::get("/flights", [FlightController::class, "index"]);
 

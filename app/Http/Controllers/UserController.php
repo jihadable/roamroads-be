@@ -11,8 +11,6 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserController extends Controller {
     public function get_user_profile(){
-        return response()->json("OK", 200);
-
         $user = JWTAuth::parseToken()->authenticate();
 
         return response()->json([
