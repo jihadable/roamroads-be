@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix("/users")->group(function(){
+Route::prefix("/pengguna")->group(function(){
     Route::get("/", [UserController::class, "get_user_profile"])->middleware(JWTMiddleware::class);
     Route::post("/register", [UserController::class, "register"]);
     Route::post("/login", [UserController::class, "login"]);
