@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Hotel;
 use App\Models\User;
 use App\Utils\ResponseDefault;
 use Illuminate\Http\Request;
@@ -12,6 +11,8 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserController extends Controller {
     public function get_user_profile(){
+        return response()->json("OK", 200);
+
         $user = JWTAuth::parseToken()->authenticate();
 
         return response()->json([
