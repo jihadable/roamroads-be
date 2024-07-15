@@ -18,15 +18,15 @@
     "rewrites": [
         { 
             "source": "/styles/(.*)", 
-            "destitation": "/public/styles/" 
+            "destination": "/public/styles/" 
         },
         { 
             "source": "/images/(.*)", 
-            "destitation": "/public/images/" 
+            "destination": "/public/images/" 
         }, 
         { 
             "source": "/(.*)", 
-            "destitation": "/api/index.php" 
+            "destination": "/api/index.php" 
         }
     ],
     "env": {
