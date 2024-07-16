@@ -9,6 +9,13 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 class User extends EloquentModel implements JWTSubject {
     use HasFactory;
 
+    protected $fillable = [
+        "name",
+        "email",
+        "password",
+        "phone"
+    ];
+
     protected $hidden = [
         "_id", 'password', "created_at", "updated_at"
     ];

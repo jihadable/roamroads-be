@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FlightController;
 use App\Http\Controllers\HotelController;
+use App\Http\Controllers\PenggunaController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\JWTMiddleware;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,8 @@ Route::prefix("/users")->group(function(){
     Route::post("/register", [UserController::class, "register"]);
     Route::post("/login", [UserController::class, "login"]);
 });
+
+Route::post("/pengguna", [PenggunaController::class, "index"]);
 
 Route::get("/flights", [FlightController::class, "index"]);
 
