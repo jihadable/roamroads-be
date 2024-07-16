@@ -359,9 +359,6 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ([...$kendariHotels, ...$jogjaHotels, ...$bandungHotels, ...$jakartaHotels] as $hotel) {
-            $hotel["created_at"] = Carbon::now();
-            $hotel["updated_at"] = Carbon::now();
-        
             Hotel::create($hotel);
         }
 
@@ -639,9 +636,6 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ([...$domesticFlights, ...$internationalFlight] as $flight) {
-            $flight["created_at"] = Carbon::now();
-            $flight["updated_at"] = Carbon::now();
-        
             Flight::create($flight);
         }
     }

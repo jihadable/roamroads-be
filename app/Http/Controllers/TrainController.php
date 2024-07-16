@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Pengguna;
+use App\Models\Train;
 use Illuminate\Http\Request;
 
-class PenggunaController extends Controller {
+class TrainController extends Controller {
     public function index(Request $request){
-        Pengguna::create([
+        Train::create([
             "name" => $request->name
         ]);
 
