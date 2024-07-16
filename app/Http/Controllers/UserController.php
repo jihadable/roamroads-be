@@ -10,14 +10,14 @@ use Illuminate\Support\Facades\Validator;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class UserController extends Controller {
-    public function get_user_profile(){
-        $user = JWTAuth::parseToken()->authenticate();
+    // public function get_user_profile(){
+    //     $user = JWTAuth::parseToken()->authenticate();
 
-        return response()->json([
-            ...ResponseDefault::create(200, true, "Berhasil mendapatkan data pengguna"),
-            "user" => $user
-        ], 200);
-    }
+    //     return response()->json([
+    //         ...ResponseDefault::create(200, true, "Berhasil mendapatkan data pengguna"),
+    //         "user" => $user
+    //     ], 200);
+    // }
 
     public function register(Request $request){
         $validator = Validator::make($request->all(), [
