@@ -18,12 +18,8 @@ class JWTMiddleware {
     public function handle(Request $request, Closure $next): Response {
         try {
 			$user = JWTAuth::parseToken()->authenticate();
-
-            if (!$user){
-                return response()->json(ResponseDefault::create(400, false, "Token invalid"), 400);
-            }
 		} catch (Exception $e) {
-            return response()->json(ResponseDefault::create(400, false, "Token invalid"), 400);
+            return response()->json(ResponseDefault::create(400, false, "Invalid token"), 400);
 		}
 
 		return $next($request);

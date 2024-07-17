@@ -3,10 +3,10 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use MongoDB\Laravel\Eloquent\Model as EloquentModel;
+use MongoDB\Laravel\Auth\User as Authenticatable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-class User extends EloquentModel implements JWTSubject {
+class User extends Authenticatable implements JWTSubject {
     use HasFactory;
 
     protected $fillable = [
