@@ -19,11 +19,13 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database.
      */
     public function run(): void {
+        $password = env("PRIVATE_PASSWORD");
+
         User::create([
             "name" => "Umar Jihad",
             "email" => "umarjihad@gmail.com",
             "phone" => "082352395596",
-            "password" => Hash::make("abcddcba")
+            "password" => Hash::make($password)
         ]);
 
         $kendariHotels = [
