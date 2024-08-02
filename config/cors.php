@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ["http://localhost:5173", "https://roamroads.netlify.app"],
 
     'allowed_origins_patterns' => [],
 
