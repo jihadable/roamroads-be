@@ -38,10 +38,10 @@ class Favorite extends EloquentModel {
         ];
     
         if ($this->type === "flight") {
-            $response["flight"] = $this->flight;
+            $response["favorite"] = ["id" => $this->flight->_id, ...$this->flight->toArray()];
         }
         else if ($this->type === "hotel") {
-            $response["hotel"] = $this->hotel;
+            $response["favorite"] = ["id" => $this->hotel->_id, ...$this->hotel->toArray()];
         }
     
         return $response;
