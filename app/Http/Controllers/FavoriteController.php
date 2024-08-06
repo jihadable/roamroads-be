@@ -54,9 +54,16 @@ class FavoriteController extends Controller {
         }
     }
 
-    public function deleteFavorites($id){
+    public function deleteFavorites($fligh_hotel_id){
         try {
-            $favorite = Favorite::findOrFail($id);
+            $user = JWTAuth::parseToken()->authenticate();
+            $user_id = $user->_id;
+
+            $favorite = Favorite::where("user_id", $user_id)->where("flight_hotel_id", $fligh_hotel_id);
+
+            if (!$favorite){
+                return response()->json(ResponseDefault::create(404, false, "Data simpanan tidak ditemukan"));
+            }
 
             $favorite->delete();
 

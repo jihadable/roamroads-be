@@ -30,7 +30,7 @@ Route::prefix("/users")->group(function(){
 Route::prefix("/favorites")->middleware(JWTMiddleware::class)->group(function(){
     Route::get("/", [FavoriteController::class, "getAllFavorites"]);
     Route::post("/", [FavoriteController::class, "storeFavorites"]);
-    Route::delete("/{id}", [FavoriteController::class, "deleteFavorites"]);
+    Route::delete("/{flight_hotel_id}", [FavoriteController::class, "deleteFavorites"]);
 });
 
 Route::get("/flights", [FlightController::class, "index"]);
