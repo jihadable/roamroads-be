@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use MongoDB\Laravel\Auth\User as Authenticatable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
@@ -19,6 +20,18 @@ class User extends Authenticatable implements JWTSubject {
     protected $hidden = [
         "_id", 'password', "created_at", "updated_at"
     ];
+
+    public function favoriteHotels(): BelongsToMany {
+        return $this->belongsToMany(Hotel::class, "favorite", "user_id", "flight_hotel_id");
+    }
+
+    public function favoriteFlights(): BelongsToMany {
+        return $this->belongsToMany(Flight::class, "favorite", "user_id", "flight_hotel_id");
+    }
+
+    public function favorites(){
+        return $this->hasMany(Favorite::class, "user_id", "_id");
+    }
 
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.

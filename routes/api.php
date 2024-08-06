@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FavoriteController;
 use App\Http\Controllers\FlightController;
 use App\Http\Controllers\HotelController;
 use App\Http\Controllers\UserController;
@@ -17,13 +18,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix("/users")->middleware("throttle:60,1")->group(function(){
+Route::prefix("/")->middleware("throttle:60,1");
+
+Route::prefix("/users")->group(function(){
     Route::get("/", [UserController::class, "get_user_profile"])->middleware(JWTMiddleware::class);
     Route::post("/register", [UserController::class, "register"]);
     Route::post("/login", [UserController::class, "login"]);
-    Route::patch("/", [UserController::class, "updateUserProfile"]);
+    Route::patch("/", [UserController::class, "updateUserProfile"])->middleware(JWTMiddleware::class);
 });
 
-Route::get("/flights", [FlightController::class, "index"])->middleware("throttle:60,1");
+Route::prefix("/favorites")->middleware(JWTMiddleware::class)->group(function(){
+    Route::get("/", [FavoriteController::class, "getAllFavorites"]);
+    Route::post("/", [FavoriteController::class, "storeFavorites"]);
+    Route::delete("/{id}", [FavoriteController::class, "deleteFavorites"]);
+});
 
-Route::get("/hotels", [HotelController::class, "index"])->middleware("throttle:60,1");
+Route::get("/flights", [FlightController::class, "index"]);
+
+Route::get("/hotels", [HotelController::class, "index"]);
